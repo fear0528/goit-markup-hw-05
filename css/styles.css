@@ -252,6 +252,7 @@ body {
 }
 .subscribe-button {
   fill: #fff;
+  margin-left: 16px;
 }
 .footer-span {
   color: var(--light-text-color);
@@ -924,6 +925,10 @@ input[type="checkbox"]:checked ~ * .agreement-checkbox-icon {
 }
 
 .btn-footer {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   display: inline-flex;
   padding: 8px 24px;
   justify-content: center;
