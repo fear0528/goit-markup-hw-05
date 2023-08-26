@@ -252,7 +252,7 @@ body {
 }
 .subscribe-button {
   fill: #fff;
-  /* margin-left: 16px; */
+  margin-left: 16px;
 }
 .footer-span {
   color: var(--light-text-color);
@@ -739,6 +739,9 @@ footer .container {
 
 .modal-inputs {
   position: relative;
+  line-height: 1.17;
+  display: block;
+  margin-bottom: 4px;
 }
 
 .agreement-checkbox {
@@ -753,6 +756,8 @@ footer .container {
   height: 40px;
   flex-shrink: 0;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  outline: transparent;
 }
 
 .form-input:focus + .modal-btn-icon-inputs {
@@ -850,6 +855,7 @@ input[type="checkbox"]:checked ~ * .agreement-checkbox-icon {
 
 .modal-input-container {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-send-btn {
