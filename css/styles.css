@@ -738,14 +738,12 @@ footer .container {
 }
 
 .modal-inputs {
-  position: relative;
   line-height: 1.17;
   display: block;
   margin-bottom: 4px;
 }
 
 .agreement-checkbox {
-  position: relative;
 }
 
 .form-input {
@@ -758,6 +756,10 @@ footer .container {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
   outline: transparent;
+}
+
+.form-input-wrapper {
+  position: relative;
 }
 
 .form-input:focus + .modal-btn-icon-inputs {
@@ -788,10 +790,10 @@ footer .container {
 .agreement-checkbox {
 }
 
-.agreement-checkbox-icon {
+/* .agreement-checkbox-icon {
   border: 1px solid #2e2f4266;
   border-radius: 2px;
-}
+} */
 
 input[type="checkbox"]:checked ~ * .agreement-checkbox-icon {
   background-color: #404bbf;
@@ -855,7 +857,8 @@ input[type="checkbox"]:checked ~ * .agreement-checkbox-icon {
 
 .modal-input-container {
   position: relative;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
+  margin-bottom: 16px;
 }
 
 .modal-send-btn {
@@ -863,10 +866,6 @@ input[type="checkbox"]:checked ~ * .agreement-checkbox-icon {
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
@@ -876,8 +875,8 @@ input[type="checkbox"]:checked ~ * .agreement-checkbox-icon {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
 }
 
 .modal-btn-icon {
