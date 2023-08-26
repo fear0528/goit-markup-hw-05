@@ -433,7 +433,6 @@
     <!-- MODAL WINDOW -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <!-- <form class="form-modal"> -->
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-modal-close"></use>
@@ -485,8 +484,7 @@
             </div>
           </div>
           <div class="modal-input-container">
-            <label class="form-label" for="user-comment">Comment</label>
-            <div class="form-input-wrapper">
+            <label class="modal-inputs" for="user-comment">Comment</label>
             <textarea
               id="user-comment"
               class="form-input text-area"
@@ -494,24 +492,23 @@
               placeholder="Text input"
             >
             </textarea>
-            </div>
           </div>
-            <div class="form-checkbox">
-              <label class="form-label-agreement"></label>
-              <div class="form-input-wrapper">
-                <input class="checkbox-agree" type="checkbox" />
-                <span class="agreement-checkbox">
-                  <svg class="agreement-checkbox-icon" width="16" height="16">
-                    <use href="./images/icons.svg#checkbox"></use>
-                  </svg>
-                </span>
-              </div>
-            </div>
-            <span>
-              I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+          <div class="form-checkbox">
+            <!-- <div class="form-input-wrapper"> -->
+            <input class="checkbox-agree" type="checkbox" />
+            <label class="form-label-agreement"></label>
+            <span class="agreement-checkbox">
+              <svg class="agreement-checkbox-icon" width="16" height="16">
+                <use href="./images/icons.svg#checkbox"></use>
+              </svg>
             </span>
           </div>
+          <!-- </div> -->
+          <span>
+            I accept the terms and conditions of the
+            <a href="">Privacy Policy</a>
+          </span>
+          <!-- </div> -->
           <button class="btn-main" type="submit">Send</button>
         </form>
       </div>
