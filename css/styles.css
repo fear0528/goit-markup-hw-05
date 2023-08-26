@@ -812,6 +812,10 @@ input[type="checkbox"]:checked ~ * .agreement-checkbox-icon {
   margin-bottom: 24px;
 }
 
+.privacy-link {
+  color: var(--primary-brand-color);
+}
+
 .form-label-agreement {
   display: block;
   flex-direction: row;
@@ -848,17 +852,40 @@ input[type="checkbox"]:checked ~ * .agreement-checkbox-icon {
   position: relative;
 }
 
+.modal-send-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-agree {
-  opacity: 0;
+  /* opacity: 0; */
   pointer-events: none;
 }
 
-.checkbox-agree:checked {
+.checkbox-agree:checked ~ * .agreement-link {
   border: none;
   fill: var(--light-text-color);
+  background-color: var(--pressed-state-color);
 }
 
 .overlay {
