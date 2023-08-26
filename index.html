@@ -488,28 +488,32 @@
             <textarea
               id="user-comment"
               class="form-input text-area"
-              name="text"
+              name="user-comment"
               placeholder="Text input"
             >
             </textarea>
           </div>
           <div class="form-checkbox">
             <!-- <div class="form-input-wrapper"> -->
-            <input class="checkbox-agree" type="checkbox" />
-            <label class="form-label-agreement"></label>
-            <span class="agreement-checkbox">
-              <svg class="agreement-checkbox-icon" width="16" height="16">
-                <use href="./images/icons.svg#checkbox"></use>
-              </svg>
-            </span>
+            <input
+              class="checkbox-agree visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+            />
+            <label class="form-label-agreement" for="user-privacy"
+              >I accept the terms and conditions of the<span
+                class="agreement-link"
+                ><svg class="agreement-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#checkbox"></use>
+                </svg>
+              </span>
+              <a href="">Privacy Policy</a></label
+            >
+            <span class="agreement-checkbox"> </span>
+            <button class="btn-main" type="submit">Send</button>
           </div>
-          <!-- </div> -->
-          <span>
-            I accept the terms and conditions of the
-            <a href="">Privacy Policy</a>
-          </span>
-          <!-- </div> -->
-          <button class="btn-main" type="submit">Send</button>
         </form>
       </div>
     </div>
