@@ -442,7 +442,7 @@
         <p class="modal-h">Leave your contacts and we will call you back</p>
         <form class="form-label">
           <div class="modal-input-container">
-            <label class="modal-inputs">Name</label>
+            <label class="modal-inputs" for="user-name">Name</label>
             <div class="form-input-wrapper">
               <input
                 id="user-name"
@@ -456,7 +456,7 @@
             </div>
           </div>
           <div class="modal-input-container">
-            <label class="modal-inputs">Phone</label>
+            <label class="modal-inputs" for="user-phone">Phone</label>
             <div class="form-input-wrapper">
               <input
                 id="user-phone"
@@ -471,7 +471,7 @@
           </div>
 
           <div class="modal-input-container">
-            <label class="modal-inputs">Email</label>
+            <label class="modal-inputs" for="user-email">Email</label>
             <div class="form-input-wrapper">
               <input
                 id="user-email"
@@ -485,14 +485,17 @@
             </div>
           </div>
           <div class="modal-input-container">
-            <label class="form-label">Comment </label>
+            <label class="form-label" for="user-comment">Comment</label>
+            <div class="form-input-wrapper">
             <textarea
               id="user-comment"
               class="form-input text-area"
               name="text"
-              placeholder="Text Input"
+              placeholder="Text input"
             >
             </textarea>
+            </div>
+          </div>
             <div class="form-checkbox">
               <label class="form-label-agreement"></label>
               <div class="form-input-wrapper">
