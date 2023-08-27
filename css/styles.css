@@ -252,7 +252,6 @@ body {
 }
 .subscribe-button {
   fill: #fff;
-  margin-left: 16px;
 }
 .footer-span {
   color: var(--light-text-color);
@@ -607,10 +606,7 @@ header .container {
 }
 
 .footer-social-media {
-  display: flex;
-  flex-direction: column;
   width: 208px;
-  height: 80px;
   gap: 16px;
 }
 
